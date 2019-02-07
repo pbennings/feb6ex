@@ -6,6 +6,7 @@
     border: solid black 1px;
     height: 2000px;
     width: 100vw;
+    justify-content:space-between;
 }
 
 nav {
@@ -64,10 +65,24 @@ footer {
     border: solid gray 2px;
 }
 
-.rectangle2 {
+/* .rectangle2 {
     border: solid purple 2px;
+    display:flex;
 }
 
 .rectangle3 {
-    border: solid silver;
+    border: solid red;
+    display:flex;
+} */
+
+.column {
+    border: solid yellow 2px;
+    height: 50vh;
+}
+
+.row {
+    border: solid orange 2px;
+    display:flex;
+    justify-content: space-evenly;
+    column-width: 100px;
 }
